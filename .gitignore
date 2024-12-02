@@ -1,0 +1,91 @@
+# Python Specific
+backend/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment (in backend folder)
+backend/venv/
+backend/env/
+backend/.env
+backend/.venv
+backend/ENV/
+
+# Flask Specific
+instance/
+.webassets-cache
+
+# React Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Dependency Directories
+node_modules/
+jspm_packages/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Security Sensitive Files
+*.pem
+*.key
+*.cert
+id_rsa*
+*.ppk
+
+# Compiled Sources
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Backup Files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Project Specific Ignores
+config.ini
+secrets.json
+.secrets
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Testing and Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Build and Distribution
+dist/
+build/
+*.egg-info/
+
+# Miscellaneous
+.cache
+.pytest_cache/
+.mypy_cache/
